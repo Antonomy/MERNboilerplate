@@ -1,70 +1,158 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br />
+<div align="center">
+  <a href="https://github.com/Antonomy/MERNboilerplate">
+    <img src="https://avatars.githubusercontent.com/u/24372514?v=4" alt="Logo" width="80" height="80">
+  </a>
 
-## Available Scripts
+<h3 align="center">MERN Infrastructure Boilerplate</h3>
 
-In the project directory, you can run:
+  <p align="center">
+    This is a clean template to serve as a useful tool to create full-stack MERN applications with JWT Authorization utilizing the MERN stack, REST Architecture, and MVC Framework.
+    <br />
+    <a href="https://github.com/Antonomy/MERNboilerplate"><strong>Explore the docs »</strong></a>
+    <br />
+    <a href="https://github.com/Antonomy/MERNboilerplate">View Demo</a>
+    ·
+    <a href="https://github.com/Antonomy/MERNboilerplate/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Antonomy/MERNboilerplate/issues">Request Feature</a>
+  </p>
+</div>
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+<br />
 
-### `npm start`
+## About The Project
+This application provides all the basic and necessary functionality needed for any MERN Application.
+- User Authentication & Authorization
+- API Controllers
+- MVC Framework
+- RESTful Architecture
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Built With
 
-### `npm test`
+* Mongoose
+* MongoDB
+* Express.js
+* REACT
+* Node.js
+* JWT
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## How to set this up locally
+To get a local copy up and running follow these simple example steps.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+* node.js
+    Download & install [node.js](https://nodejs.org/en/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Get Excited! - Good or bad, you're embarking on a new adventure!
+2. Clone the repo
+   ```sh
+   git clone https://github.com/Antonomy/MERNboilerplate.git
+   ```
+3. Install NPM packages
+   ```sh
+   npm i
+   ```
+4. Duplicate the `.env-example` file and rename it to `.env`. 
+5. Update `MONGO_URI` and `SECRET` to your own.
+    ```
+    MONGO_URI=mongodb+srv://xxx
+    SECRET=thiscanbeanythingyouwant
+    ```
+6. Start Back-End
+   ```
+   npm run dev
+   ```
+7. Start Front-End
+   ```
+   npm run react
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Learn More
+# Roadmap
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [x] User Sign Up, Login, Logout
+- [x] RESTful Architecture
+- [x] CRUD Capability
+- [x] MVC Framework
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+See the [open issues](https://github.com/Antonomy/MERNboilerplate/issues) for a full list of proposed features (and known issues).
 
-### Code Splitting
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+# Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-### Making a Progressive Web App
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star ⭐! Thanks again!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-### Advanced Configuration
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+# Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Antony Yu
 
-### `npm run build` fails to minify
+Email: antonyyu@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Connect on LinkedIn](https://www.linkedin.com/in/antonyyu/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+# Acknowledgments
+
+* First, I thank myself because I worked hard on this and I'm proud of myself.
+* Friends and Family - Life wouldn't be as fun without you in it. Thank you for putting up with me.
+* Third Degree Burns Family - We made it through and you were all a part of making me the engineer I am.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
