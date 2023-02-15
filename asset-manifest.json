@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MERNboilerplate/static/css/main.3bda2c8f.css",
+    "main.js": "/MERNboilerplate/static/js/main.586bb796.js",
+    "index.html": "/MERNboilerplate/index.html",
+    "main.3bda2c8f.css.map": "/MERNboilerplate/static/css/main.3bda2c8f.css.map",
+    "main.586bb796.js.map": "/MERNboilerplate/static/js/main.586bb796.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3bda2c8f.css",
+    "static/js/main.586bb796.js"
+  ]
+}
