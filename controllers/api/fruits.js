@@ -44,7 +44,7 @@ const dataController = {
   // Create
   create (req, res, next) {
     req.body.readyToEat = req.body.readyToEat === 'on'
-   
+
     Fruit.create(req.body, (err, createdFruit) => {
       if (err) {
         res.status(400).send({
@@ -74,12 +74,12 @@ const dataController = {
 }
 
 const apiController = {
-    index (req, res, next) {
-      res.json(res.locals.data.fruits)
-    },
-    show (req, res, next) {
-      res.json(res.locals.data.fruit)
-    }
+  index (req, res, next) {
+    res.json(res.locals.data.fruits)
+  },
+  show (req, res, next) {
+    res.json(res.locals.data.fruit)
   }
+}
 
 module.exports = { dataController, apiController }
